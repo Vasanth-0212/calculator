@@ -16,7 +16,7 @@ const Calculator = () => {
         try {
             setInput(eval(input).toString());
         } catch (error) {
-            setInput("Invalid Expression");
+            setInput("Invalid Expression",error);
         }
     };
 
